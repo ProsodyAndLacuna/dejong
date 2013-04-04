@@ -1,0 +1,228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3BBD3716DC96AE003AF860 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3BBD3616DC96AE003AF860 /* libz.1.2.5.dylib */; };
+		ABFC9BDC170A8D240062A0B1 /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC9BD5170A8D240062A0B1 /* Frame.cpp */; };
+		ABFC9BDD170A8D240062A0B1 /* JSONObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC9BD7170A8D240062A0B1 /* JSONObject.cpp */; };
+		ABFC9BDE170A8D240062A0B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC9BD9170A8D240062A0B1 /* main.cpp */; };
+		ABFC9BDF170A8D240062A0B1 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC9BDA170A8D240062A0B1 /* Point.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB3BBD1E16DC68F5003AF860 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB3BBD2016DC68F5003AF860 /* dejong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dejong; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3BBD3616DC96AE003AF860 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		ABFC9BD5170A8D240062A0B1 /* Frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Frame.cpp; path = dejong/Frame.cpp; sourceTree = "<group>"; };
+		ABFC9BD6170A8D240062A0B1 /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Frame.h; path = dejong/Frame.h; sourceTree = "<group>"; };
+		ABFC9BD7170A8D240062A0B1 /* JSONObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JSONObject.cpp; path = dejong/JSONObject.cpp; sourceTree = "<group>"; };
+		ABFC9BD8170A8D240062A0B1 /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONObject.h; path = dejong/JSONObject.h; sourceTree = "<group>"; };
+		ABFC9BD9170A8D240062A0B1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = dejong/main.cpp; sourceTree = "<group>"; };
+		ABFC9BDA170A8D240062A0B1 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Point.cpp; path = dejong/Point.cpp; sourceTree = "<group>"; };
+		ABFC9BDB170A8D240062A0B1 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Point.h; path = dejong/Point.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3BBD1D16DC68F5003AF860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3BBD3716DC96AE003AF860 /* libz.1.2.5.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3BBD1516DC68F5003AF860 = {
+			isa = PBXGroup;
+			children = (
+				ABFC9BD5170A8D240062A0B1 /* Frame.cpp */,
+				ABFC9BD6170A8D240062A0B1 /* Frame.h */,
+				ABFC9BD7170A8D240062A0B1 /* JSONObject.cpp */,
+				ABFC9BD8170A8D240062A0B1 /* JSONObject.h */,
+				ABFC9BD9170A8D240062A0B1 /* main.cpp */,
+				ABFC9BDA170A8D240062A0B1 /* Point.cpp */,
+				ABFC9BDB170A8D240062A0B1 /* Point.h */,
+				AB3BBD3616DC96AE003AF860 /* libz.1.2.5.dylib */,
+				AB3BBD2116DC68F5003AF860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3BBD2116DC68F5003AF860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3BBD2016DC68F5003AF860 /* dejong */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3BBD1F16DC68F5003AF860 /* dejong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3BBD2A16DC68F5003AF860 /* Build configuration list for PBXNativeTarget "dejong" */;
+			buildPhases = (
+				AB3BBD1C16DC68F5003AF860 /* Sources */,
+				AB3BBD1D16DC68F5003AF860 /* Frameworks */,
+				AB3BBD1E16DC68F5003AF860 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dejong;
+			productName = mathtest;
+			productReference = AB3BBD2016DC68F5003AF860 /* dejong */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3BBD1716DC68F5003AF860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Marshall Mickelson";
+			};
+			buildConfigurationList = AB3BBD1A16DC68F5003AF860 /* Build configuration list for PBXProject "dejong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB3BBD1516DC68F5003AF860;
+			productRefGroup = AB3BBD2116DC68F5003AF860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3BBD1F16DC68F5003AF860 /* dejong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3BBD1C16DC68F5003AF860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFC9BDC170A8D240062A0B1 /* Frame.cpp in Sources */,
+				ABFC9BDD170A8D240062A0B1 /* JSONObject.cpp in Sources */,
+				ABFC9BDE170A8D240062A0B1 /* main.cpp in Sources */,
+				ABFC9BDF170A8D240062A0B1 /* Point.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB3BBD2816DC68F5003AF860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB3BBD2916DC68F5003AF860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB3BBD2B16DC68F5003AF860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = dejong;
+			};
+			name = Debug;
+		};
+		AB3BBD2C16DC68F5003AF860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = dejong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3BBD1A16DC68F5003AF860 /* Build configuration list for PBXProject "dejong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3BBD2816DC68F5003AF860 /* Debug */,
+				AB3BBD2916DC68F5003AF860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3BBD2A16DC68F5003AF860 /* Build configuration list for PBXNativeTarget "dejong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3BBD2B16DC68F5003AF860 /* Debug */,
+				AB3BBD2C16DC68F5003AF860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3BBD1716DC68F5003AF860 /* Project object */;
+}
